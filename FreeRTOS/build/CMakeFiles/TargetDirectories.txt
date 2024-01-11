@@ -1,3 +1,0 @@
-/home/miesho/dev/workspace/RTOS_benchmarking_analysis/FreeRTOS/build/CMakeFiles/stm32_f411xe_min_require.elf.dir
-/home/miesho/dev/workspace/RTOS_benchmarking_analysis/FreeRTOS/build/CMakeFiles/edit_cache.dir
-/home/miesho/dev/workspace/RTOS_benchmarking_analysis/FreeRTOS/build/CMakeFiles/rebuild_cache.dir

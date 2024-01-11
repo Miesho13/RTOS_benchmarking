@@ -19,12 +19,17 @@
 #include "system/system.h"
 #include "driver/gpio.h"
 #include "driver/timers.h"
+#include "c_util/tester.h"
 
 // RTOS
 #include "FreeRTOSConfig.h"
 #include "FreeRTOS/org/Source/include/FreeRTOS.h"
 #include "FreeRTOS/org/Source/include/task.h"
-volatile uint32_t elaps = 0;
+
+
+trace_time_t trace[100] = {0};
+
+uint32_t trace_probe = 0;
 
 void system_init() {
     SystemInit();
@@ -43,18 +48,24 @@ void system_init() {
     };
     gpio_init(gpio_out_d);
     
+    RCC->APB1ENR |= RCC_APB1ENR_TIM4EN;
+    trace_init(TIM4);
+    
     // wait for system init  
     for (volatile int i = 0; i < 100000; i++);
+
 }
 
 
 TaskHandle_t xTaskHandler1 = NULL;
 void vTask1_Handler(void *pvParameters) {
     
-
     while (1) {
-        gpio_togle(GPIOD, GPIO_PIN15);
-        vTaskDelay(1000);
+        // gpio_togle(GPIOD, GPIO_PIN15);
+        if (trace_probe < 100) {
+            START_TRACE(trace[trace_probe], TIM4);
+        }
+        taskYIELD();
     }
 }
 
@@ -62,8 +73,13 @@ TaskHandle_t xTaskHandler2 = NULL;
 void vTask2_Handler(void *pvParameters) {
 
     while (1) {
-        gpio_togle(GPIOD, GPIO_PIN14);
-        vTaskDelay(200);
+        // gpio_togle(GPIOD, GPIO_PIN14);
+        if (trace_probe < 100) {
+            STOP_TRACE(trace[trace_probe], TIM4);
+            trace_probe++;
+        }
+
+        taskYIELD();
     }
 }
 
@@ -73,7 +89,7 @@ int main(int argc, char const *argv[]) {
 
     system_init();
     gpio_write(GPIOD, GPIO_PIN12, 1);
-    
+
     xTaskCreate(vTask1_Handler, "Task-1", configMINIMAL_STACK_SIZE, NULL, 1, &xTaskHandler1);
     xTaskCreate(vTask2_Handler, "Task-2", configMINIMAL_STACK_SIZE, NULL, 1, &xTaskHandler2);
     

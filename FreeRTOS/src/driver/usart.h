@@ -10,8 +10,8 @@ typedef struct {
      
 } usart_init_t;
 
-void usart_init(usart_init_t *husart);
+void usart2_init(void);
 int32_t usart_read();
-int32_t usart_write();
+int32_t usart_write(USART_TypeDef* husart, uint8_t* buffer, uint32_t len);
 
 #endif

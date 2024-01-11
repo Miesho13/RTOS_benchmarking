@@ -21,7 +21,8 @@ void RCC_Init_100MHz(void) {
     // enable HSE
     RCC->CR |= RCC_CR_HSEON;
     while (((RCC->CR & RCC_CR_HSERDY) >> 17) != 1) { }
-    
+
+
     RCC->CFGR &= ~(0b1111 << 4);
     RCC->CFGR &= ~(0b11 << 0);
     RCC->CFGR |=  (0b01 << 0);
