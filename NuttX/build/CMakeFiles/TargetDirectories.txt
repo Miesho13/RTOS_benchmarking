@@ -1,0 +1,3 @@
+/home/miesho/dev/embedded_workspace/stm32f411VET6_min_require/build/CMakeFiles/stm32_f411xe_min_require.elf.dir
+/home/miesho/dev/embedded_workspace/stm32f411VET6_min_require/build/CMakeFiles/edit_cache.dir
+/home/miesho/dev/embedded_workspace/stm32f411VET6_min_require/build/CMakeFiles/rebuild_cache.dir
