@@ -34,7 +34,7 @@
 #define MPU_WRAPPERS_INCLUDED_FROM_API_FILE
 
 /* FreeRTOS includes. */
-#include "FreeRTOS.h"
+#include "include/FreeRTOS.h"
 #include "task.h"
 #include "timers.h"
 #include "stack_macros.h"
@@ -4520,7 +4520,6 @@ static void prvResetNextTaskUnblockTime( void )
 
 #endif /* ( ( configUSE_TRACE_FACILITY == 1 ) && ( configUSE_STATS_FORMATTING_FUNCTIONS > 0 ) && ( configSUPPORT_DYNAMIC_ALLOCATION == 1 ) ) */
 /*----------------------------------------------------------*/
-
 #if ( ( configGENERATE_RUN_TIME_STATS == 1 ) && ( configUSE_STATS_FORMATTING_FUNCTIONS > 0 ) && ( configSUPPORT_DYNAMIC_ALLOCATION == 1 ) )
 
     void vTaskGetRunTimeStats( char * pcWriteBuffer )

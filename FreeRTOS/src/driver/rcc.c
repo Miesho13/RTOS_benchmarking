@@ -31,3 +31,14 @@ void RCC_Init_100MHz(void) {
 
 }
 
+void main() {
+    // code ...
+
+    START_TRACE(t1);
+    system_alloc(MEMORY_IN_BYTES);
+    STOP_TRACE(t2);
+
+    log(INFO, "TIME ELAPSED: %d", (t2 - t1));
+
+    // code ...
+}

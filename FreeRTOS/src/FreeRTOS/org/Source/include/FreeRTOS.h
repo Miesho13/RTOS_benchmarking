@@ -27,6 +27,8 @@
 #ifndef INC_FREERTOS_H
 #define INC_FREERTOS_H
 
+#include "../../../../cmsis/stm32f4xx.h"
+
 /*
  * Include the generic headers required for the FreeRTOS port being used.
  */
@@ -54,7 +56,7 @@
 /* *INDENT-ON* */
 
 /* Application specific configuration options. */
-#include "FreeRTOSConfig.h"
+#include "../../../../FreeRTOSConfig.h"
 
 /* Basic FreeRTOS definitions. */
 #include "projdefs.h"
@@ -751,6 +753,15 @@
 #ifndef configGENERATE_RUN_TIME_STATS
     #define configGENERATE_RUN_TIME_STATS    0
 #endif
+
+#define portCONFIGURE_TIMER_FOR_RUN_TIME_STATS() \
+    RCC->APB1ENR |= RCC_APB1ENR_TIM5EN; \ 
+TIM5->ARR = 0xffffffff - 1; \
+            TIM5->PSC = (SystemCoreClock  / 1000000) - 1; \
+            TIM5->CR1 |= TIM_CR1_CEN; \
+
+
+#define portGET_RUN_TIME_COUNTER_VALUE() TIM5->CNT// Return the current value of the timer
 
 #if ( configGENERATE_RUN_TIME_STATS == 1 )
 
