@@ -1,0 +1,32 @@
+*** Some note for RTOS benchmarking method ***
+
+
+Test method
+    Bechawioral methodology
+        Why? Cuz establish deterministic bechawior
+
+    Performence mesurment methodology
+
+
+Tracing overhead [1]
+    Ten test jest przeporwadzony z powodu jest związany z ograniczeniem 
+    sprzętowym. Przyczynami narzutu systemu może być odczyt timierów co zajmuje
+    4-6 cykli magistrali. Głona cześć narzutu jest spowodowana ograniczeniem 
+    prędkości zapisu do pamieci.
+
+    Celemt tesgo testu jest dokladne zmierzenie obciążenia systemu sledzenia w celu 
+    zwiekszenia ogolnej dokladnosci. 
+    
+    t2 - t1 = OH 
+
+
+
+
+    
+
+
+
+
+Reference:
+    1. Open source FreeRTOS as a case study in real-time operating system 
+       evelution :

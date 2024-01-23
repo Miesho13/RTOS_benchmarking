@@ -1,0 +1,66 @@
+FREEROTS
+## BENCHAMRKING
+oznienie_przelaczania = 
+    [INFO] switching dleay = 907 
+
+czas_tworzenia = 
+    [CREATE] PRIRO +2: 3123
+    [DELETE] PRIRO +2: 1500
+
+    [CREATE] PRIRO +0: 3079
+    [DELETE] PRIRO +0: 1500
+
+    [CREATE] PRIRO -2: 3222
+    [DELETE] PRIRO -2: 1510
+
+
+
+czas_pozyskania/zwalniania_semaphora =
+    [INFO] semaphore trace 332
+    [INFO] semaphore trace 416
+
+czas_pozyskania/zwalniania_mutexu = 
+    [INFO] mutex block: 378
+    [INFO] mutex ublock: 520
+
+czas_alokacji pamieci (1024) =
+    [INFO] allco info: 681
+    [INFO] free info: 556
+
+## BECHAWIORAL 
+Thread creation and round robin behaviour:
+[1] start
+[1] create t2
+[1] create t3
+[1] YIELD
+[3] start
+[3] step
+[1] create t4
+[1] set p to lowest
+[4] start
+[4] step
+[2] start
+[2] step
+[1] end test
+
+Semaphor bechawe
+[1] start
+[1] create t2
+[1] create semaphor 0
+[1] take 1
+[2] start
+[2] give 1
+[1] give 3
+[1] take 4
+[2] give 1
+[1] end test
+
+[1] create sem(0)
+[1] create t2 t3(0)
+[2] take semaphore 
+[3] take semaphore 
+[1] give semaphore  
+[2] delete 
+[1] give semaphore  
+[3] delete 
+[1] end test 

@@ -15,5 +15,4 @@
 
 void RCC_Init_100MHz(void);
 
-
 #endif

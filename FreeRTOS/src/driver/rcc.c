@@ -21,24 +21,21 @@ void RCC_Init_100MHz(void) {
     // enable HSE
     RCC->CR |= RCC_CR_HSEON;
     while (((RCC->CR & RCC_CR_HSERDY) >> 17) != 1) { }
-
-
-    RCC->CFGR &= ~(0b1111 << 4);
-    RCC->CFGR &= ~(0b11 << 0);
-    RCC->CFGR |=  (0b01 << 0);
     
-    while (((RCC->CFGR & (0b11 << 2)) >> 2) != 0b01 ) { }
+    RCC->PLLCFGR = (1 << 22) | (8 << 0) | (100 << 6) | (0 << 16);
 
+    RCC->CR |= RCC_CR_PLLON;
+    while (!(RCC->CR & RCC_CR_PLLRDY));
+    FLASH->ACR = FLASH_ACR_LATENCY_3WS;
+    
+    RCC->CFGR &= ~(0b1111 << 4);
+
+    RCC->CFGR &= ~RCC_CFGR_PPRE1; // Clear the APB1 prescaler bits
+    RCC->CFGR &= ~RCC_CFGR_PPRE2; // Clear the APB2 prescaler bits
+                                  
+    RCC->CFGR = (RCC->CFGR & ~RCC_CFGR_SW_Msk) | RCC_CFGR_SW_PLL;
+    while ((RCC->CFGR & RCC_CFGR_SWS_Msk) != RCC_CFGR_SWS_PLL);
+
+    SystemCoreClockUpdate();
 }
 
-void main() {
-    // code ...
-
-    START_TRACE(t1);
-    system_alloc(MEMORY_IN_BYTES);
-    STOP_TRACE(t2);
-
-    log(INFO, "TIME ELAPSED: %d", (t2 - t1));
-
-    // code ...
-}

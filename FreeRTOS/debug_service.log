@@ -17,7 +17,7 @@ Reading ROM table for AP 0 @0xe00fffd0
 Hardware watchpoint supported by the target 
 ST-LINK Firmware version : V2J42S0
 Device ID: 0x431
-PC: 0x8007f38
+PC: 0x800f428
 ST-LINK device status: HALT_MODE
 ST-LINK detects target voltage = 2.93 V
 ST-LINK device status: HALT_MODE
@@ -44,7 +44,7 @@ Stm32Device, closeDevice() exit
 
 [39;49m[39;49m
 
-[39;49m[39;49mLog output file:   /tmp/STM32CubeProgrammer_gVrtX5.log
+[39;49m[39;49mLog output file:   /tmp/STM32CubeProgrammer_qnfIQ0.log
 [39;49m[90mST-LINK SN  : 37FF68064243393024162157
 [39;49m[90mST-LINK FW  : V2J42S0
 [39;49m[90mBoard       : --
@@ -63,19 +63,21 @@ Stm32Device, closeDevice() exit
 [39;49m[39;49m
 
 [39;49m[39;49mMemory Programming ...
-[39;49m[39;49mOpening and parsing file: ST-LINK_GDB_server_lxYX66.srec
-[39;49m[39;49m  File          : ST-LINK_GDB_server_lxYX66.srec
-[39;49m[39;49m  Size          : 55.43 KB 
+[39;49m[39;49mOpening and parsing file: ST-LINK_GDB_server_5La4fN.srec
+[39;49m[39;49m  File          : ST-LINK_GDB_server_5La4fN.srec
+[39;49m[39;49m  Size          : 64.70 KB 
 [39;49m[39;49m  Address       : 0x08000000 
 [39;49m[39;49m
 
 [39;49m[39;49m[39;49mErasing memory corresponding to segment 0:
-[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49mErasing internal memory sectors [0 3]
+[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49mErasing internal memory sector 0
+[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49mErasing memory corresponding to segment 1:
+[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49mErasing internal memory sectors [0 4]
 [39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49mDownload in Progress:
-[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[00;32m[==================================================] 100% [39;49m
+[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[00;32m[==============================================    ]  92% [39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[39;49m[00;32m[==================================================] 100% [39;49m
 
 File download complete
-Time elapsed during download operation: 00:00:01.555
+Time elapsed during download operation: 00:00:02.469
 [39;49m[39;49m[39;49m[39;49m[39;49m[00;32m[39;49m[39;49m[39;49m[39;49m ------ Switching context ----- 
 COM frequency = 4000 kHz
 Target connection mode: Default
@@ -83,7 +85,7 @@ Reading ROM table for AP 0 @0xe00fffd0
 Hardware watchpoint supported by the target 
 ST-LINK Firmware version : V2J42S0
 Device ID: 0x431
-PC: 0x8007f38
+PC: 0x800f428
 ST-LINK detects target voltage = 2.93 V
 ST-LINK device status: HALT_MODE
 GDB session, device event: 6
@@ -98,6 +100,554 @@ GDB session, device event: 0
 NVIC_DFSR_REG = 0x00000001 
 GDB session, device event: 3
 GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000003 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000003 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
+GDB session, device event: 0
+NVIC_DFSR_REG = 0x00000001 
+GDB session, device event: 3
+GDB session, device event: 1
 ST-LINK device status: RUN_MODE
 Received Ctrl-C from the client 
 Device not halted(0), performing Ctrl-C
@@ -105,3 +655,50 @@ GDB session, device event: 4
 Device halted
 ST-LINK device status: HALT_MODE
 GDB session, device event: 0
+GDB session, device event: 3
+GDB session, device event: 1
+ST-LINK device status: RUN_MODE
+Received Ctrl-C from the client 
+Device not halted(0), performing Ctrl-C
+GDB session, device event: 4
+Device halted
+ST-LINK device status: HALT_MODE
+GDB session, device event: 0
+GDB session, device event: 3
+GDB session, device event: 1
+ST-LINK device status: RUN_MODE
+Received Ctrl-C from the client 
+Device not halted(0), performing Ctrl-C
+GDB session, device event: 4
+Device halted
+ST-LINK device status: HALT_MODE
+GDB session, device event: 0
+GDB session, device event: 3
+GDB session, device event: 1
+ST-LINK device status: RUN_MODE
+Received Ctrl-C from the client 
+Device not halted(0), performing Ctrl-C
+GDB session, device event: 4
+Device halted
+ST-LINK device status: HALT_MODE
+GDB session, device event: 0
+GDB session terminated: Client connection lost
+GdbSessionManager, session terminated: 1
+GdbSrv, last session terminated, signal dispose
+Stopping port 61234
+Received stop for port 61234, not accepting new connections.
+GdbSrv, deInit entry.
+Shutting down...
+GdbSessionManager, deInit entry.
+GDB session disposed: 1
+GdbSessionManager, deInit exit
+SwvSrv deInit entry
+Stopping port 61235
+Received stop for port 61235, not accepting new connections.
+SwvSrv deInit exit
+Stm32Device, closeDevice() entry
+Stm32Device, pollAndNotify stopped
+Stm32Device, closeDevice() exit
+Stm32Device, deInit success
+GdbSrv, deInit exit.
+Exit.

@@ -16,7 +16,7 @@
 
 void trace_init(TIM_TypeDef *htim) {
     htim->PSC = 1;
-    htim->ARR = 0xffff - 1;
+    htim->ARR = 0xffffffff - 1;
     htim->CR1 |= TIM_CR1_CEN;
 }
 

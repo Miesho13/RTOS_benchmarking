@@ -1,0 +1,80 @@
+hello_main.c.home.miesho.dev.workspace.RTOS_benchmarking_analysis.NuttX.apps.examples.hello.o: \
+ hello_main.c \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/nuttx/config.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/nuttx/clock.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/sys/types.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/nuttx/compiler.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/stdint.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/arch/types.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/arch/inttypes.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/limits.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/arch/limits.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/time.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/nuttx/time.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/stdbool.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/unistd.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/stdio.h \
+ /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/nuttx/fs/fs.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/dirent.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/nuttx/mutex.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/assert.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/nuttx/semaphore.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/errno.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/semaphore.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/nuttx/queue.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/nuttx/mm/map.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/nuttx/mm/gran.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/nuttx/lib/lib.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/nuttx/kmalloc.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/stdlib.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/nuttx/mm/mm.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/malloc.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/nuttx/userspace.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/signal.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/pthread.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/nuttx/arch.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/arch/arch.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/nuttx/pgalloc.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/nuttx/cache.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/nuttx/sched.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/sched.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/strings.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/string.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/stddef.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/alloca.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/nuttx/addrenv.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/nuttx/wqueue.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/nuttx/wdog.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/nuttx/irq.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/arch/irq.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/arch/chip/irq.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/arch/stm32/chip.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/arch/stm32/stm32f40xxx_irq.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/arch/armv7-m/irq.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/arch/armv7-m/nvicpri.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/arch/chip/chip.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/nuttx/net/net.h \
+ c_util/tracer.h c_util/../cmsis/stm32f411xe.h c_util/../cmsis/core_cm4.h \
+ c_util/../cmsis/core_cmInstr.h c_util/../cmsis/cmsis_gcc.h \
+ c_util/../cmsis/core_cmFunc.h c_util/../cmsis/core_cmSimd.h \
+ c_util/../cmsis/system_stm32f4xx.h cmsis/stm32f411xe.h
+tracer.c.home.miesho.dev.workspace.RTOS_benchmarking_analysis.NuttX.apps.examples.hello.o: \
+ c_util/tracer.c c_util/./tracer.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/stdlib.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/nuttx/config.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/nuttx/compiler.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/sys/types.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/stdint.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/arch/types.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/arch/inttypes.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/limits.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/arch/limits.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/assert.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/stdbool.h \
+ c_util/./../cmsis/stm32f411xe.h c_util/./../cmsis/core_cm4.h \
+ c_util/./../cmsis/core_cmInstr.h c_util/./../cmsis/cmsis_gcc.h \
+ c_util/./../cmsis/core_cmFunc.h c_util/./../cmsis/core_cmSimd.h \
+ c_util/./../cmsis/system_stm32f4xx.h
+# No files specified for dependency generation
+# No files specified for dependency generation

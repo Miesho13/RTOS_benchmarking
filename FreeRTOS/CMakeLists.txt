@@ -16,7 +16,6 @@ set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} ${PROCESSOR_FLAGS} -Wall -Wextra -g -O0")
 set(LINKER_SCRIPT ${CMAKE_SOURCE_DIR}/STM32F411VET6.ld)
 set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -specs=nosys.specs -T${LINKER_SCRIPT}")
     
-
 file(GLOB_RECURSE SOURCES "src/*.c"
                           "src/*.s"
                           "src/cmsis/*.c"

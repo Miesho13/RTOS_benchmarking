@@ -1,0 +1,41 @@
+builtin_list.c.home.miesho.dev.workspace.RTOS_benchmarking_analysis.NuttX.apps.builtin.o: \
+ builtin_list.c \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/nuttx/config.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/nuttx/lib/builtin.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/sys/types.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/nuttx/compiler.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/stdint.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/arch/types.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/arch/inttypes.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/limits.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/arch/limits.h \
+ builtin_proto.h builtin_list.h
+exec_builtin.c.home.miesho.dev.workspace.RTOS_benchmarking_analysis.NuttX.apps.builtin.o: \
+ exec_builtin.c \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/nuttx/config.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/spawn.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/sys/types.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/nuttx/compiler.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/stdint.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/arch/types.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/arch/inttypes.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/limits.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/arch/limits.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/sched.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/stdbool.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/strings.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/string.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/stddef.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/alloca.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/time.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/signal.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/fcntl.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/errno.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/debug.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/syslog.h \
+ /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/sys/uio.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/apps/include/builtin/builtin.h \
+ /home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/nuttx/include/nuttx/lib/builtin.h
+# No files specified for dependency generation
+# No files specified for dependency generation

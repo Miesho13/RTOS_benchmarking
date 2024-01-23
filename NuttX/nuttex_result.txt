@@ -1,0 +1,64 @@
+NUTTEX
+## BENCHAMRKING
+oznienie_przelaczania = 
+    [INFO] switching dleay = 1812 
+
+czas_tworzenia = 
+    INFO create -1: 4484
+    INFO delete -1: 3688
+    INFO create +0: 4790
+    INFO delete +0: 80
+    INFO create +1: 11084
+    INFO delete +1: 72
+
+    
+
+czas_pozyskania/zwalniania_semaphora =
+    Semaphore released 70
+    Semaphore acquired: 74
+
+czas_pozyskania/zwalniania_mutexu = 
+    Semaphore released 70
+    Semaphore acquired: 74
+
+czas_alokacji pamieci (1024) =
+    [INFO] allco info: 568
+    [INFO] free info: 432
+
+## BECHAWIORAL 
+Thread creation and round robin behaviour:
+[Z1] Create t2
+[Z1] Create t3
+[Z3] Start
+[Z1] YIELD
+[Z2] Start
+[Z1] Create t4
+[Z4] Start
+[Z1] Set p to lowest
+[Z1] Set p to mid
+[Z1] End test
+
+Semaphor bechawe
+[T1] Set priority to mid
+[T1] Create semaphore
+[T1] Create T2
+[T1] Try to acquire semaphore
+[T2] Start
+[T2] Release semaphore
+[T1] Increment semaphore three times
+[T1] Acquire semaphore three times
+[T1] Acquire semaphore again
+[T2] End
+
+
+[T1] Set priority to low
+[T1] Create semaphore
+[T1] Create T2
+[T2] Start
+[T2] Try to acquire semaphore
+[T1] Create T3
+[T3] Start
+[T3] Try to acquire semaphore
+[T1] Release semaphore
+[T2] End
+[T1] Release semaphore again

@@ -1,0 +1,9 @@
+
+
+menu "Built-in Applications"
+
+source "/home/miesho/dev/workspace/RTOS_benchmarking_analysis/NuttX/apps/rtos_testing/thred_test/Kconfig"
+
+endmenu
+
+

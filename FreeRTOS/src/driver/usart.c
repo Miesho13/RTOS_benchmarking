@@ -15,9 +15,22 @@ void usart2_init(void) {
 
     // Set alternate functions for PA2 and PA3 to be USART2 TX and RX
     GPIOA->AFR[0] |= (7 << (4 * (2 % 8))) | (7 << (4 * (3 % 8))); // USART2 is AF7
+    
+    // Assuming USART2 is connected to APB1
+    uint32_t usart2_clk_freq = 50e6; // APB1 clock frequency
+
+    // Calculate the USARTDIV value
+    float usartdiv = (float)usart2_clk_freq / (16 * 115200);
+
+    // Calculate the Mantissa part
+    uint16_t mantissa = (uint16_t)usartdiv;
+
+    // Calculate the Fraction part
+    uint16_t fraction = (uint16_t)((usartdiv - mantissa) * 16);
+    
 
     // Configure USART2
-    USART2->BRR = SystemCoreClock / 9600; // Set baud rate to 9600 [BRR = f_Clock / BaudRate]
+    USART2->BRR =  (mantissa << 4) | (fraction & 0x0F); // Set baud rate to 9600 [BRR = f_Clock / BaudRate]
     USART2->CR1 |= USART_CR1_TE | USART_CR1_RE; // Enable transmitter and receiver
     USART2->CR1 |= USART_CR1_UE; // Enable USART
 }

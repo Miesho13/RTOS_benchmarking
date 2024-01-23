@@ -1,0 +1,26 @@
+ZEPHYR
+opoznienie_przelaczania = 
+    [info] switching dleay = 2338
+
+czas_tworzenia = 
+    [CREATE] PRIRO +2: 2278
+    [DELETE] PRIRO +2: 1004
+
+    [CREATE] PRIRO +0: 2272
+    [DELETE] PRIRO +0: 1006
+
+    [CREATE] PRIRO -2: 8156
+    [DELETE] PRIRO -2: 166
+
+
+opoznienie_obslugi_przerwania = 
+czas_pozyskania/zwalniania_semaphora =
+    [NO LOAD] take_semaphore: 148
+    [NO LOAD] give_semaphore: 362
+
+czas_pozyskania/zwalniania_mutexu = 
+
+
+czas_alokacji pamieci =
+    [INFO] alloc trace: 3356
+    [INFO] free trace: 3792
